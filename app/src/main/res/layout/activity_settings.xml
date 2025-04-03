@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:elevation="4dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:text="MotoCare"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/settings_logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@android:color/white"
+        android:textSize="20dp"
+        android:text="LOGOUT"
+        android:padding="10dp"
+        android:elevation="4dp"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginVertical="20dp"/>
+
+    <Button
+        android:id="@+id/settings_notifications"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@android:color/white"
+        android:textSize="20dp"
+        android:text="NOTIFICATIONS"
+        android:padding="10dp"
+        android:elevation="4dp"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/settings_display"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@android:color/white"
+        android:textSize="20dp"
+        android:text="DISPLAY"
+        android:padding="10dp"
+        android:elevation="4dp"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/settings_general"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@android:color/white"
+        android:textSize="20dp"
+        android:text="GENERAL"
+        android:padding="10dp"
+        android:elevation="4dp"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/settings_privacy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@android:color/white"
+        android:textSize="20dp"
+        android:text="PRIVACY"
+        android:padding="10dp"
+        android:elevation="4dp"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/settings_feedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@android:color/white"
+        android:textSize="20dp"
+        android:text="FEEDBACK"
+        android:padding="10dp"
+        android:elevation="4dp"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/settings_about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@android:color/white"
+        android:textSize="20dp"
+        android:text="ABOUT US"
+        android:padding="10dp"
+        android:elevation="4dp"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginBottom="20dp"/>
+</LinearLayout>

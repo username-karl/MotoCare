@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="main" type="id" />
+    <item name="editPassword" type="id" />
+    <item name="editMobile" type="id" />
+    <item name="editTel" type="id" />
+    <item name="editAddress" type="id" />
+    <item name="editPostalCode" type="id" />
+</resources>
